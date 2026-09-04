@@ -1,0 +1,15 @@
+{
+  "name": "jharkhand-innovation-bridge",
+  "version": "1.0.0",
+  "description": "Citizen \u00b7 HEI \u00b7 Industry problem-solving registry for Jharkhand",
+  "main": "server.sql.js",
+  "scripts": {
+    "start": "node server.sql.js",
+    "start:json": "node server.js",
+    "migrate": "node db/migrate.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.5",
+    "dotenv": "^16.4.5"
+  }
+}
